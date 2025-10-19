@@ -2,9 +2,9 @@ package com.jebert.sample.taskmanager.client;
 
 import com.jebert.sample.taskmanager.task.Task;
 import com.jebert.sample.taskmanager.task.TaskManager;
-//import com.jebert.sample.taskmanager.task.loader.SimpleTaskLoader;
+import com.jebert.sample.taskmanager.task.loader.SimpleTaskLoader;
 import com.jebert.sample.taskmanager.task.loader.TaskLoader;
-import com.jebert.sample.taskmanager.task.loader.XMLTaskLoader;
+//import com.jebert.sample.taskmanager.task.loader.XMLTaskLoader;
 
 /**
  * Class Client
@@ -25,11 +25,11 @@ public class Client {
 	 */
 	public java.util.ArrayList<Task> getConfiguration()
 	{		
-		//TaskLoader simple = new SimpleTaskLoader();
-		//return simple.load();
+		TaskLoader simple = new SimpleTaskLoader();
+		return simple.load();
 		
-		TaskLoader tl = new XMLTaskLoader();
-		return tl.load();
+		//TaskLoader tl = new XMLTaskLoader();
+		//return tl.load();
 	}
 	/**
 	 * Test client
