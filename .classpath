@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/JavaSE-25"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/jimebert/Library/CloudStorage/OneDrive-Personal/Documents/Jim/code/Dave_Ramsey_sample_code/TaskManager/commons-configuration-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/jimebert/Library/CloudStorage/OneDrive-Personal/Documents/Jim/code/Dave_Ramsey_sample_code/TaskManager/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jimebert/Library/CloudStorage/OneDrive-Personal/Documents/Jim/code/Dave_Ramsey_sample_code/TaskManager/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jimebert/Library/CloudStorage/OneDrive-Personal/Documents/Jim/code/Dave_Ramsey_sample_code/TaskManager/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jimebert/Library/CloudStorage/OneDrive-Personal/Documents/Jim/code/Dave_Ramsey_sample_code/TaskManager/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jimebert/Library/CloudStorage/OneDrive-Personal/Documents/Jim/code/Dave_Ramsey_sample_code/TaskManager/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

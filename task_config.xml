@@ -1,0 +1,37 @@
+<TaskList>
+	<Task>
+		<ID>1</ID>
+		<Name>A</Name>
+		<Duration>5</Duration>
+	</Task>
+	<Task>
+		<ID>2</ID>
+		<Name>B</Name>
+		<Duration>3</Duration>
+		<Dependencies>
+			<Dependency id="1" />
+		</Dependencies>
+	</Task>	
+	<Task>
+		<ID>3</ID>
+		<Name>C</Name>
+		<Duration>10</Duration>
+	</Task>	
+	<Task>
+		<ID>4</ID>
+		<Name>D</Name>
+		<Duration>1</Duration>
+		<Dependencies>
+			<Dependency id="2" />
+			<Dependency id="3" />
+		</Dependencies>
+	</Task>	
+	<Task>
+		<ID>5</ID>
+		<Name>E</Name>
+		<Duration>4</Duration>
+		<Dependencies>
+			<Dependency id="1" />
+		</Dependencies>
+	</Task>
+</TaskList>
